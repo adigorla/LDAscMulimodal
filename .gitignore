@@ -1,0 +1,31 @@
+# Byte-compiled /  optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# text editor (vi / emacs) intermediate/swap files
+*~
+*.*#
+*.swp
+
+# Ignoring Core Dumps 
+bin/core.*
+
+# Ignore OS generated files
+**/.DS_Store
+**/.Rhistory
+**/.ipynb_checkpoints
+
+# Ignore pages doc
+STATS254projectreport.pages
+HWs/
+
+# Ignore large raw data files
+scIB/l5_all.loom
+**/*.h5ad
+**/*.mtx
+**/*.mtx.gz
+**/*.tsv
+**/*.csv
+mouseData/*.txt
+scIB/*.txt
